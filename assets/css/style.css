@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 30px);
+}
+
+h1 {
+  text-transform: capitalize;
+}
+#output-box {
+  width: 500px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 3px;
+  line-height: 35px;
+  background: rgba(0, 128, 0, 0.164);
+  text-align: center;
+}
